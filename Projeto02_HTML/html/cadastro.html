@@ -5,57 +5,59 @@
 <head>
 </head>
 <body>
-	<h1>Cadastro de clientes</h1>
-	<form action="leitura.html">
-       <fieldset>
-	     <legend><b>Dados cadastrais</b></legend>
-		  <table>
-		  <tr>
-		     <th><label for="cadastrar">Nome:</label></th>
-		     <th><input type="text" name="nome" autofocus autocomplete="off"></th>
-		     <th><label for="cadastrar">CPF:</label></th>
-             <th><input type="text" name="fcpf" id="cpf" placeholder="123.456.789-00" pattern="[0-9]{3}.[0-9]{3}-[0-9]{2}" required></th>
-		   </tr>
-		   </table>
-		   <br>
-			<table>
-				<tr>
-				  <th><label for="cadastrar">Endereço:</label></th>
-				  <th><input type="text" name="nome" id="endereço"></th>
-				  <th><label for="cadastrar">Bairro:</label></th>
-				  <th><input type="text" name="nome" id="bairro"></th>
-				  <th><label for="cadastrar">Cidade:</label></th>
-				  <th><input type="text" name="nome" id="cidade"></th>
-			    </tr>
-			</table>
-			<br>
-			<table>
-              <th><label for="cadastrar">E-mail:</label></th>
-              <th><input type="email" name="email" id="email" placeholder="exemplo@gmail.com" autocomplete="off"></th>
-              <th><label for="cadastrar">Telefone:</label><th>
-              <th><input type="tel" name="telefone" id="telefone"></th>
-			</table>
-			<table>
-			  <tr>
-			    <th><h4>Data de Nascimento</h4><th>
-                <th><input type="date" name="data" id="data"></th><br>
-			    <th><label for="cadastrar">Sexo</label><br></th>
-			    <th><input type="radio" name="sexo" value="feminino">Feminino<br></th>
-			    <th><input type="radio" name="sexo" value="masculino">Maculino<br></th>
-			  </tr>
-			</table>
-            <label for="senha"><b>Insira uma senha:<b></label>
-			<br>
-            <input type="password" name="senha" id="senha" maxlength="8" required>
-			<br>
-            <br>
-            <label for="senha"><b>Repita a senha:</b.</label>
-            <br>
-            <input type="password" name="repet_senha" id="repet_senha" maxlength="8" required>
-            <br>
-            <br>
-			<input type="submit" name="btn-enviar" value="Enviar">
-		</fieldset>	   
-	</form>
+  <h1>Cadastro de clientes</h1>
+  <form action="leitura.html">
+  <fieldset>
+     <legend><b>Dados cadastrais</b></legend>
+     <table>
+        <tr>
+           <th><label for="cadastrar">Nome:</label></th>
+           <th><input type="text" name="nome" autofocus autocomplete="off"></th>
+           <th><label for="cadastrar">CPF:</label></th>
+           <th><input type="text" name="fcpf" id="cpf" placeholder="123.456.789-00" pattern="[0-9]{3}.[0-9]{3}-[0-9]{2}" required></th>
+	</tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+	   <th><label for="cadastrar">Endereço:</label></th>
+	   <th><input type="text" name="nome" id="endereço"></th>
+	   <th><label for="cadastrar">Bairro:</label></th>
+	   <th><input type="text" name="nome" id="bairro"></th>
+	   <th><label for="cadastrar">Cidade:</label></th>
+	   <th><input type="text" name="nome" id="cidade"></th>
+	</tr>
+     </table>
+     <br>
+     <table>
+       <tr>
+         <th><label for="cadastrar">E-mail:</label></th>
+         <th><input type="email" name="email" id="email" placeholder="exemplo@gmail.com" autocomplete="off"></th>
+         <th><label for="cadastrar">Telefone:</label><th>
+         <th><input type="tel" name="telefone" id="telefone"></th>
+       </tr>
+     </table>
+     <table>
+       <tr>
+	  <th><h4>Data de Nascimento</h4><th>
+          <th><input type="date" name="data" id="data"></th><br>
+          <th><label for="cadastrar">Sexo</label><br></th>
+          <th><input type="radio" name="sexo" value="feminino">Feminino<br></th>
+	  <th><input type="radio" name="sexo" value="masculino">Maculino<br></th>
+	</tr>
+     </table>
+     <label for="senha"><b>Insira uma senha:<b></label>
+     <br>
+     <input type="password" name="senha" id="senha" maxlength="8" required>
+      <br>
+      <br>
+      <label for="senha"><b>Repita a senha:</b.</label>
+      <br>
+      <input type="password" name="repet_senha" id="repet_senha" maxlength="8" required>
+      <br>
+      <br>
+      <input type="submit" name="btn-enviar" value="Enviar">
+    </fieldset>	   
+  </form>
 </body>
 </html>

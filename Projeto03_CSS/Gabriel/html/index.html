@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../img/icon.png">
+    <title>Arcadia Quest</title>
+</head>
+<body>
+    <header>
+        <h1>Arcadia Quest</h1>
+        <p><i>Pesquisa de satisfação</i></p>
+    </header>
+
+    <div class="div-form">
+        <form action="" method="GET">
+            <div class="container">
+                <label for="nome" class="labelTitulo">Nome</label>
+                <input type="text" class="campoTexto" id="nome" placeholder="Coloque seu nome..." required>
+            </div>
+
+            <div class="container">
+                <label for="email" class="labelTitulo">E-mail</label>
+                <input type="email" class="campoTexto" id="email" placeholder="exemplo@provedor.com" required>
+            </div>
+
+            <div class="container">
+                <label for="classe" class="labelTitulo">Qual classe você gosta mais?</label>
+                <select class="campoTexto" name="classe" id="classe" required>
+                    <option value="">Selecione uma classe</option>
+                    <option value="mago">Mago</option>
+                    <option value="bardo">Bardo</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="elfo">Elfo</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="container">
+                <label class="labelTitulo">Você recomendaria Arcadia Quest?</label>
+                <label for="sim" class="labelSelection">
+                    <input type="radio" name="recomendacao" value="sim" id="sim" required>
+                    É claro que sim, é  massa demais doido!
+                </label>
+                <label for="talvez" class="labelSelection">
+                    <input type="radio" name="recomendacao" value="talvez" id="talvez">
+                    Hmmm, talvez
+                </label>
+                <label for="nao" class="labelSelection">
+                    <input type="radio" name="recomendacao" value="nao" id="nao">
+                    Nem aqui, nem na China...
+                </label>
+            </div>
+
+            <div class="container">
+                <label class="labelTitulo">Quais destas expansões você possui? (Selecione quantas quiser)</label>
+                <label for="pet" class="labelSelection">
+                    <input type="checkbox" name="expansao" value="pet" id="pet">
+                    Pets
+                </label>
+                <label for="riders" class="labelSelection">
+                    <input type="checkbox" name="expansao" value="riders" id="riders">
+                    Riders
+                </label>
+                <label for="fireDragon" class="labelSelection">
+                    <input type="checkbox" name="expansao" value="fireDragon" id="fireDragon">
+                    Fire Dragon
+                </label>
+                <label for="beyond" class="labelSelection">
+                    <input type="checkbox" name="expansao" value="beyond" id="beyond">
+                    Beyond The Grave
+                </label>
+            </div>
+
+            <div class="container">
+                <label for="sugestao" class="labelTitulo">Deixe aqui sua sugestão para melhorar o jogo</label>
+                <textarea rows="5" id="sugestao" placeholder="Digite aqui sua sugestão..."></textarea>
+            </div>            
+
+            <div class="container">
+                <input type="submit" value="Enviar" class="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

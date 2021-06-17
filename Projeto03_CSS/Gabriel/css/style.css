@@ -50,6 +50,7 @@ textarea{
 }
 .div-form form .container .submit:hover{
     background-color: #47e283;
+    transition-duration: 0.2s;
 }
 
 

@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    color:#e9fafb;
+    text-align: center;
+    background-color: #04a1bf;
+}
+
+input{
+    border-radius: 5px; /*Melhor forma de usar border-radius é com px*/
+    border-style: none;
+    font-size: 20px;
+}
+
+/*Id's*/
+
+p#adiciona{
+    color: #ebc969;
+}
+
+p#completa{
+    color: #42d57d;
+}
+
+p#cancela{
+    color: #037786;
+}
+
+input#novaTarefa{
+    width: 60%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+input#btnAdicionar{
+    background-color: #025f70;
+    color: #0399b9;
+    width: 10%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+input#btnAdicionar:hover{
+    background-color: #074853;
+    transition-duration: 200ms;
+}
+
+/*Classes*/
+
+.tarefa{
+    background-color: #4eb9cd;
+    border: solid #117082 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    height: 35px;
+    display: block;
+}
+
+.tarefa p{
+    margin: 0px;
+    display: inline;
+}
+
+.tarefa input{
+    background-color: #ff0000; /*cancel*/
+    color:#e9fafb;
+    font-size: 15px;
+    width: 45px;
+    height: 35px;
+}

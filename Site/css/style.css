@@ -2,16 +2,6 @@ body{
     background-color: rgb(15, 14, 14);
 }
 
-main{
-    list-style: none;
-    display: flex;    
-    flex-wrap: wrap;
-}
-
-ul li{
-    font-size: x-large;
-}
-
 header{
     color: white
 }
@@ -37,25 +27,26 @@ a:hover{
     transition-duration: 0.2s;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
 .projeto{
-    flex-basis: 400px;
-    flex-grow: 0;
-    align-items: center; /*Garante que os filhos fiquem centralizados*/
-    flex-direction: column; /*Filhos um abaixo do outro*/
     margin: 10px;
     min-width: 400px;
+    flex-grow: 1;
+    flex-basis:0;
 }
 
 .descricao {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.foto{
-    max-width: 100%;
-    max-height: 100%;
+.foto a img{
+    width: 100%;
+    height: auto;
+    max-height: 240px; /*Garantindo que não exista diferença de altura*/
+    max-width: 600px;    /*Garantindo que exista a responsividade mas sem discrepância no elemento que fica sozinho*/
 }
-
-.foto a, .foto img{
-    max-height: inherit;
-    max-width: inherit;
-}
+    
